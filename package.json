@@ -1,0 +1,19 @@
+{
+  "name": "task1-11",
+  "version": "1.0.0",
+  "description": "任务十一：移动Web页面布局实践",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HashCoding/task1-11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HashCoding/task1-11/issues"
+  },
+  "homepage": "https://github.com/HashCoding/task1-11#readme"
+}
