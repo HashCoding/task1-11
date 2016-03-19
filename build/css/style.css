@@ -3,9 +3,51 @@
   padding: 0;
   box-sizing: border-box; }
 
-html {
-  font-size: 16px; }
+ html {
+    /*font-size : 14px;*/
+font-size: calc(100vw/26.785);
+
+}
+
 
 .head {
-  height: 1.14rem;
-  background-color: #91d4da; }
+  height: 3.21rem;
+  background-color: #91d4da; 
+font-size: 1.3rem;
+text-align: center;
+line-height:3.21rem;
+color:#fff;
+font-weight: bold;
+font-family: "微软雅黑";
+ }
+.head .back{
+	
+	vertical-align:middle;
+	position: absolute;
+}
+.head .title{
+	vertical-align:middle;
+}
+.navbar{
+	height: 3.21rem;
+	 background-color: #fff; 
+	font-size: 1.2rem;
+	text-align: center;
+	line-height:3.21rem;
+
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.navbar ul li{
+	width: 20%;
+	float: left;
+	list-style: none;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:#6e6e6e;
+}
+.navbar ul .active{
+	border-bottom: 0.14285rem solid #91d4da;
+}
