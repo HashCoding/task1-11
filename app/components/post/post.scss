@@ -1,0 +1,49 @@
+.post {
+  position: relative;
+  ul {
+    li {
+      padding: px2rem(10px) 0;
+      border-bottom: px2rem(2px) solid #ebebeb;
+      h4 {
+        font-size: px2rem(20px);
+        font-weight: bold;
+        color: #525252;
+      }
+      span {
+        margin-left: px2rem(4px);
+        color: #cbcbcb;
+      }
+      img {
+        float: left;
+        width: px2rem(106px);
+        height: px2rem(74px);
+      }
+      &:last-child {
+        border: none;
+      }
+      &.one {
+        h4 {
+          position: absolute;
+          left: px2rem(120px);
+        }
+        span {
+          position: relative;
+          top: px2rem(56px);
+          left: px2rem(10px);
+        }
+      }
+      &.two {
+        h4 {
+          margin-bottom: px2rem(10px);
+        }
+        img {
+          margin-right: px2rem(10px);
+        }
+        span {
+
+        }
+      }
+    }
+
+  }
+}

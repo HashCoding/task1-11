@@ -130,3 +130,37 @@ li, ol {
       margin-bottom: 0.57143rem;
       text-align: center;
       background-color: #f8f8f8; }
+
+.post {
+  position: relative; }
+  .post ul li {
+    padding: 0.71429rem 0;
+    border-bottom: 0.14286rem solid #ebebeb; }
+    .post ul li h4 {
+      font-size: 1.42857rem;
+      font-weight: bold;
+      color: #525252; }
+    .post ul li span {
+      margin-left: 0.28571rem;
+      color: #cbcbcb; }
+    .post ul li img {
+      float: left;
+      width: 7.57143rem;
+      height: 5.28571rem; }
+    .post ul li:last-child {
+      border: none; }
+    .post ul li.one h4 {
+      position: absolute;
+      left: 8.57143rem; }
+    .post ul li.one span {
+      position: relative;
+      top: 4rem;
+      left: 0.71429rem; }
+    .post ul li.two h4 {
+      margin-bottom: 0.71429rem; }
+    .post ul li.two img {
+      margin-right: 0.71429rem; }
+
+.foot {
+  height: 3.57143rem;
+  background-color: #f6f6f6; }
