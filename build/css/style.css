@@ -9,11 +9,11 @@ html {
   font-size: calc(100vw/26.785); }
 
 .head {
-  height: 3.14286em;
+  height: 3.14286rem;
   background-color: #91d4da;
-  font-size: 1.28571em;
+  font-size: 1.28571rem;
   text-align: center;
-  line-height: 3.14286em;
+  line-height: 3.14286rem;
   color: #fff;
   font-weight: bold;
   font-family: "微软雅黑"; }
@@ -24,11 +24,11 @@ html {
     vertical-align: middle; }
 
 .navbar {
-  height: 3.14286em;
+  height: 3.14286rem;
   background-color: #fff;
-  font-size: 1.28571em;
+  font-size: 1.28571rem;
   text-align: center;
-  line-height: 3.14286em;
+  line-height: 3.14286rem;
   font-weight: bold;
   font-family: "微软雅黑"; }
   .navbar ul li {
@@ -39,4 +39,4 @@ html {
       text-decoration: none;
       color: #6e6e6e; }
   .navbar ul .active {
-    border-bottom: 0.14286em solid #91d4da; }
+    border-bottom: 0.14286rem solid #91d4da; }

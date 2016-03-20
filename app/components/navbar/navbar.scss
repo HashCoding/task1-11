@@ -1,9 +1,9 @@
 .navbar{
-  height: px2em(44px);
+  height: px2rem(44px);
   background-color: #fff;
-  font-size: px2em(18px);
+  font-size: px2rem(18px);
   text-align: center;
-  line-height:px2em(44px);
+  line-height:px2rem(44px);
   font-weight: bold;
   font-family: "微软雅黑";
   ul {
@@ -17,7 +17,7 @@
       }
     }
     .active {
-      border-bottom: px2em(2px) solid #91d4da;
+      border-bottom: px2rem(2px) solid #91d4da;
     }
   }
 }
