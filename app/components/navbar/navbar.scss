@@ -1,0 +1,23 @@
+.navbar{
+  height: px2em(44px);
+  background-color: #fff;
+  font-size: px2em(18px);
+  text-align: center;
+  line-height:px2em(44px);
+  font-weight: bold;
+  font-family: "微软雅黑";
+  ul {
+    li {
+      width: 20%;
+      float: left;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color:#6e6e6e;
+      }
+    }
+    .active {
+      border-bottom: px2em(2px) solid #91d4da;
+    }
+  }
+}

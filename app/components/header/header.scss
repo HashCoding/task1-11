@@ -1,4 +1,19 @@
 .head {
-  height: 0.44rem;
+  height: px2em(44px);
   background-color: #91d4da;
+  font-size: px2em(18px);
+  text-align: center;
+  line-height:px2em(44px);
+  color:#fff;
+  font-weight: bold;
+  font-family: "微软雅黑";
+
+  .back {
+    vertical-align:middle;
+    position: absolute;
+  }
+
+  .title {
+    vertical-align:middle;
+  }
 }
