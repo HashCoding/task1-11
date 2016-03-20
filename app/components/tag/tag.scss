@@ -1,0 +1,25 @@
+.tag {
+  margin: 14px 10px;
+  ul {
+    li {
+      float: left;
+      width: px2rem(118px);
+      border-right: px2rem(1px) solid #e5e5e5;
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      h3, p {
+        text-align: center;
+      }
+      h3 {
+        font-size: px2rem(16px);
+        line-height: px2rem(32px);
+      }
+      &:last-child {
+        border: none;
+      }
+    }
+
+  }
+}

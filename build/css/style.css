@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +5,22 @@
 
 html {
   /*font-size : 14px;*/
-  font-size: calc(100vw/26.785); }
+  font-size: calc(100vw/26.785);
+  font-family: 'Microsoft YaHei',"Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+li, ol {
+  list-style: none; }
+
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  height: 0;
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
 
 .head {
   height: 3.14286rem;
@@ -15,8 +29,7 @@ html {
   text-align: center;
   line-height: 3.14286rem;
   color: #fff;
-  font-weight: bold;
-  font-family: "微软雅黑"; }
+  font-weight: bold; }
   .head .back {
     vertical-align: middle;
     position: absolute; }
@@ -29,8 +42,7 @@ html {
   font-size: 1.28571rem;
   text-align: center;
   line-height: 3.14286rem;
-  font-weight: bold;
-  font-family: "微软雅黑"; }
+  font-weight: bold; }
   .navbar ul li {
     width: 20%;
     float: left;
@@ -40,3 +52,46 @@ html {
       color: #6e6e6e; }
   .navbar ul .active {
     border-bottom: 0.14286rem solid #91d4da; }
+
+.banner img {
+  height: 14.71429rem;
+  width: 100%; }
+
+.label {
+  height: 8rem;
+  margin: 0 0.71429rem;
+  padding: 1.28571rem 0;
+  border-bottom: 0.07143rem solid #e5e5e5;
+  height: 10rem; }
+  .label ul {
+    margin-right: -6.42857rem; }
+    .label ul li {
+      float: left;
+      width: 4.85714rem;
+      margin-left: 0.42857rem;
+      overflow: hidden; }
+      .label ul li img {
+        width: 3.57143rem;
+        height: 3.57143rem; }
+      .label ul li span {
+        display: block;
+        margin-left: 0.57143rem;
+        margin-top: 1.28571rem;
+        margin-bottom: 1.28571rem; }
+
+.tag {
+  margin: 14px 10px; }
+  .tag ul li {
+    float: left;
+    width: 8.42857rem;
+    border-right: 0.07143rem solid #e5e5e5; }
+    .tag ul li img {
+      display: block;
+      margin: 0 auto; }
+    .tag ul li h3, .tag ul li p {
+      text-align: center; }
+    .tag ul li h3 {
+      font-size: 1.14286rem;
+      line-height: 2.28571rem; }
+    .tag ul li:last-child {
+      border: none; }

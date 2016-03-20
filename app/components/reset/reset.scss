@@ -7,5 +7,19 @@
 html {
   /*font-size : 14px;*/
   font-size: calc(100vw/26.785);
+  font-family: 'Microsoft YaHei',"Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
 
+li, ol {
+  list-style: none;
+}
+
+.clearfix:after {
+  content:'\0020';
+  display:block;
+  height:0;
+  clear:both
+}
+.clearfix{
+  *zoom:1
 }

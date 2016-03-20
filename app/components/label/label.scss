@@ -1,0 +1,27 @@
+.label {
+  height:px2rem(112px);
+  margin: 0 px2rem(10px);
+  padding: px2rem(18px) 0;
+  border-bottom: px2rem(1px) solid #e5e5e5;
+  height: px2rem(140px);
+  ul {
+    margin-right: px2rem(-90px);
+    li {
+      float: left;
+      width: px2rem(68px);
+      margin-left: px2rem(6px);
+      overflow: hidden;
+      img {
+        width: px2rem(50px);
+        height: px2rem(50px);
+      }
+      span {
+        display: block;
+        margin-left: px2rem(8px);
+        margin-top: px2rem(18px);
+        margin-bottom: px2rem(18px);
+      }
+
+    }
+  }
+}
