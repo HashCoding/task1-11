@@ -22,6 +22,9 @@ li, ol {
 .clearfix {
   *zoom: 1; }
 
+.wrap {
+  margin: 0 0.71429rem; }
+
 .head {
   height: 3.14286rem;
   background-color: #91d4da;
@@ -61,7 +64,7 @@ li, ol {
   height: 8rem;
   margin: 0 0.71429rem;
   padding: 1.28571rem 0;
-  border-bottom: 0.07143rem solid #e5e5e5;
+  border-bottom: 0.14286rem solid #ebebeb;
   height: 10rem; }
   .label ul {
     margin-right: -6.42857rem; }
@@ -84,7 +87,8 @@ li, ol {
   .tag ul li {
     float: left;
     width: 8.42857rem;
-    border-right: 0.07143rem solid #e5e5e5; }
+    border-right: 0.14286rem solid #ebebeb;
+    margin: 1.14286rem 0; }
     .tag ul li img {
       display: block;
       margin: 0 auto; }
@@ -95,3 +99,34 @@ li, ol {
       line-height: 2.28571rem; }
     .tag ul li:last-child {
       border: none; }
+
+.cc {
+  height: 0.85714rem;
+  background-color: #f6f6f6; }
+
+.model .title-name {
+  height: 3.14286rem;
+  line-height: 3.14286rem;
+  color: #575757;
+  border-bottom: 0.14286rem solid #ebebeb; }
+
+.model .model-content {
+  padding: 0.71429rem 0; }
+  .model .model-content .model-img {
+    float: left;
+    width: 6.71429rem; }
+    .model .model-content .model-img img {
+      width: 6.57143rem;
+      height: 6.14286rem; }
+  .model .model-content .model-word {
+    float: right;
+    width: 18.57143rem; }
+    .model .model-content .model-word p {
+      float: left;
+      padding: 0.71429rem;
+      height: 2.71429rem;
+      width: 8.57143rem;
+      margin-left: 0.57143rem;
+      margin-bottom: 0.57143rem;
+      text-align: center;
+      background-color: #f8f8f8; }

@@ -1,0 +1,33 @@
+.model {
+  .title-name {
+    height: px2rem(44px);
+    line-height: px2rem(44px);
+    color: #575757;
+    border-bottom: px2rem(2px) solid #ebebeb;
+  }
+  .model-content {
+    padding: px2rem(10px) 0;
+    .model-img {
+      float: left;
+      width: px2rem(94px);
+      img {
+        width: px2rem(92px);
+        height: px2rem(86px);
+      }
+    }
+    .model-word {
+      float: right;
+      width: px2rem(260px);
+      p {
+        float: left;
+        padding:px2rem(10px);
+        height: px2rem(38px);
+        width: px2rem(120px);
+        margin-left: px2rem(8px);
+        margin-bottom: px2rem(8px);
+        text-align: center;
+        background-color: #f8f8f8;
+      }
+    }
+  }
+}
